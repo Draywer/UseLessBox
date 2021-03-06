@@ -4,7 +4,7 @@ import org.w3c.dom.ls.LSOutput;
 
 public class Switcher {
     private UseLessBox box;
-    private volatile Status status;
+    private Status status;
 
     public Switcher(UseLessBox box) {
         this.box = box;
